@@ -4,7 +4,8 @@ export function MainPage() {
     <body className="bg-slate-900">
       
   
-      <div className="min-h-screen py-0 px-24 max-w-screen justify-between mx-auto flex">
+      <div className="mx-auto min-h-screen py-0 px-24 max-w-screen-xl justify-between flex">
+        {/* <div className="flex"> */}
         {/* left side */}
         <div className="flex flex-col max-h-screen w-1/2 justify-between sticky top-0 py-28">
           <div className="flex flex-col gap-10">
@@ -44,42 +45,61 @@ export function MainPage() {
         </div>
 
         {/* project stuff */}
-        <div className="flex flex-col text-slate-300 text-xl text-wrap w-1/2 py-28">
-          <div>
-            <p className="mb-24">
-              blah blah blah stuff abt me goes here.
-              filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler 
-              <br />
-              filler filler filler filler filler filler filler 
-              <br />
-              filler filler filler 
-              <br />
-              filler filler filler filler 
+        <div className="flex flex-col text-slate-300 text-md text-wrap w-1/2 py-28">
+          <header>
+            <p className="text-xl">
+              some stuff that I've worked on:
             </p>
+            <hr className="h-px my-2 bg-slate-500 border-0"/>
+          </header>
+
+          <div id="projects" className="mb-5">
+            <div className="rounded-md p-2 flex flex-col hover:bg-white/10 mb-5">
+              <p className="mb-2 font-bold">Avarian</p>
+              <p className="mb-2">Frontend webapp built to manage access to Dockerized backend services for friends, like game server maps, leaderboards, and upkeep information.</p>
+              <div className="flex flex-row gap-2 text-violet-200 font-semibold">
+                <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">React</p>
+                <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">Typescript</p>
+                <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">Javascript</p>
+                <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">Tailwind</p>
+              </div>
+
+            </div>
+
+            <div className="rounded-md p-2 flex flex-col hover:bg-white/10">
+              <p className="mb-2 font-bold">2D Fluid Simulator</p>
+              <p className="mb-2">2D fluid simulator that simulates the motion and dynamics of fluids according to the Navier-Stokes equations. Allows users to interact with the fluid by moving it around and by drawing walls to impede the fluid.</p>
+              <div className="flex flex-row gap-2 text-violet-200 font-semibold">
+                <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">Javascript</p>
+                <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">WebGL</p>
+              </div>
+            </div>
+          </div>
+          
+
+          <header>
+            <p className="text-xl">
+              experience:
+            </p>
+            <hr className="h-px my-2 bg-slate-500 border-0"/>
+          </header>
+
+          <div id="experience" className="mb-5">
+            <div className="rounded-md p-2 flex flex-col hover:bg-white/10 mb-5">
+            <p className="mb-2 font-bold">Coding Expertise for AI Training Tier · outlier.ai </p>
+            <p className="mb-2">I rizz up the AI with my software skillz.</p>
+            <div className="flex flex-row gap-2 text-violet-200 font-semibold">
+              <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">Rizz</p>
+              <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">Javascript</p>
+              <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">Python</p>
+            </div>
+            </div>
           </div>
 
-          <div className="mb-24">
-            Project 1
-
-          </div>
-
-          <div className="mb-24">
-            Project 2
-          </div>
-          <div className="mb-24">
-            Project 3
-          </div>
-          <div className="mb-24">
-            Project 4
-          </div>
-          <div className="mb-24">
-            Project 5
-          </div>
-          <div className="mb-24">
-            Project 6
-          </div>
+          
         </div>
       </div>
+      {/* </div> */}
     </body>
   )
 }
