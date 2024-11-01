@@ -54,7 +54,7 @@ export function MainPage() {
           </header>
 
           <div id="projects" className="mb-5">
-            <div className="rounded-md p-2 flex flex-col hover:bg-white/10 mb-5">
+            <div className="rounded-md p-2 flex flex-col hover:bg-white/10 mb-5 hover:text-violet-400">
               <p className="mb-2 font-bold">Avarian</p>
               <p className="mb-2">Frontend webapp built to manage access to Dockerized backend services for friends, like game server maps, leaderboards, and upkeep information.</p>
               <div className="flex flex-row gap-2 text-violet-200 font-semibold">
@@ -66,13 +66,22 @@ export function MainPage() {
 
             </div>
 
-            <div className="rounded-md p-2 flex flex-col hover:bg-white/10">
-              <p className="mb-2 font-bold">2D Fluid Simulator</p>
-              <p className="mb-2">2D fluid simulator that simulates the motion and dynamics of fluids according to the Navier-Stokes equations. Allows users to interact with the fluid by moving it around and by drawing walls to impede the fluid.</p>
-              <div className="flex flex-row gap-2 text-violet-200 font-semibold">
-                <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">Javascript</p>
-                <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">WebGL</p>
-              </div>
+            <div className="rounded-md p-2 flex flex-col hover:bg-white/10 mb-5 hover:text-violet-400">
+              <a href="https://bananafiesta.github.io/fluidsim" target="_blank" rel="noreferrer">
+                <div className="flex flex-row items-center gap-2">
+                  <p className="mb-2 font-bold">2D Fluid Simulator</p>
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-5 mb-1">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                  </svg>
+
+                </div>
+                
+                <p className="mb-2">2D fluid simulator that simulates the motion and dynamics of fluids according to the Navier-Stokes equations. Allows users to interact with the fluid by moving it around and by drawing walls to impede the fluid.</p>
+                <div className="flex flex-row gap-2 text-violet-200 font-semibold">
+                  <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">Javascript</p>
+                  <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">WebGL</p>
+                </div>
+              </a>
             </div>
           </div>
           
@@ -85,7 +94,7 @@ export function MainPage() {
           </header>
 
           <div id="experience" className="mb-5">
-            <div className="rounded-md p-2 flex flex-col hover:bg-white/10 mb-5">
+            <div className="rounded-md p-2 flex flex-col hover:bg-white/10 mb-5 hover:text-violet-400">
             <p className="mb-2 font-bold">Coding Expertise for AI Training Tier · outlier.ai </p>
             <p className="mb-2">I rizz up the AI with my software skills.</p>
             <div className="flex flex-row gap-2 text-violet-200 font-semibold">
