@@ -95,11 +95,13 @@ export function MainPage() {
 
           <div id="experience" className="mb-5">
             <div className="rounded-md p-2 flex flex-col hover:bg-white/10 mb-5 hover:text-violet-400">
-            <p className="mb-2 font-bold">Coding Expertise for AI Training Tier · outlier.ai </p>
+            <p className="mb-2 font-bold">Coding Expertise for AI Training, Tier 2· outlier.ai </p>
             <p className="mb-2">I rizz up the AI with my software skills.</p>
             <div className="flex flex-row gap-2 text-violet-200 font-semibold">
               <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">Javascript</p>
               <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">Python</p>
+              <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">C</p>
+              <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">C++</p>
             </div>
             </div>
           </div>
