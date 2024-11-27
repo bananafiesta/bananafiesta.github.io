@@ -37,8 +37,10 @@ export function MainPage() {
                   <path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"></path>
                 </svg>
               </a>
-              
-              
+
+              <a href="https://avarian.net">
+                <img src="/white-lotus.jpg" alt="Avarian Icon" className="size-12 rounded-full"/>
+              </a>
             </div>
           </div>
           
@@ -55,19 +57,38 @@ export function MainPage() {
 
           <div id="projects" className="mb-5">
             <div className="rounded-md p-2 flex flex-col hover:bg-white/10 mb-5 hover:text-violet-400">
-              <a href="https://github.com/bananafiesta/avarian-client" target="_blank" rel="noreferrer">
+              <a href="https://avarian.net" target="_blank" rel="noreferrer">
                 <div className="flex flex-row items-center gap-2">
                   <p className="mb-2 font-bold">Avarian</p>
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-5 mb-1">
                     <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
                   </svg>
                 </div>
-                <p className="mb-2">Frontend webapp built to manage access to Dockerized backend services for friends, like game server maps, leaderboards, and upkeep information.</p>
+                <p className="mb-2">Frontend webapp built to serve player information like leaderboards, skill levels, and wallet balances for a private Minecraft server. Built with Discord as the main sign-in method.</p>
                 <div className="flex flex-row gap-2 text-violet-200 font-semibold">
                   <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">React</p>
                   <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">Typescript</p>
                   <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">Javascript</p>
                   <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">Tailwind</p>
+                </div>
+              </a>
+            </div>
+
+            <div className="rounded-md p-2 flex flex-col hover:bg-white/10 mb-5 hover:text-violet-400">
+              <a href="https://github.com/bananafiesta/avarian-backend" target="_blank" rel="noreferrer">
+                <div className="flex flex-row items-center gap-2">
+                  <p className="mb-2 font-bold">Avarian - Panopticon</p>
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-5 mb-1">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                  </svg>
+                </div>
+                <p className="mb-2">Backend API and server for Avarian that handles queries for player data like leaderboards and skills. Includes a Discord bot for role verification and user commands.</p>
+                <div className="flex flex-row gap-2 text-violet-200 font-semibold">
+                  <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">Express</p>
+                  <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">Typescript</p>
+                  <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">Javascript</p>
+                  <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">MySQL</p>
+                  <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">PostgreSQL</p>
                 </div>
               </a>
             </div>
