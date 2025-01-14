@@ -1,27 +1,27 @@
 
 export function MainPage() {
   return(
-    <body className="bg-slate-900">
-      
+    <div className="bg-slate-900">
   
-      <div className="mx-auto min-h-screen py-0 px-24 max-w-screen-xl justify-between flex">
+      <div className="mx-auto min-h-screen px-4 lg:px-24 max-w-screen-xl justify-between lg:flex font-nunito">
         {/* <div className="flex"> */}
         {/* left side */}
-        <div className="flex flex-col max-h-screen w-1/2 justify-between sticky top-0 py-28">
-          <div className="flex flex-col gap-10">
+        <div className="flex flex-col max-h-screen lg:w-1/2 justify-between md:sticky top-0 lg:py-24 py-8">
+          <div className="flex flex-col gap-2 lg:gap-10">
             {/* name stuff */}
-            <div className="flex flex-row text-slate-300 items-center gap-8 text-4xl font-bold">
+            <div className="flex flex-row text-slate-300 items-center gap-4 lg:gap-8 text-4xl font-semibold">
               <img src="/ScryersBloom.png" alt="Scryer's Bloom" className="rounded-full size-24"/>
               Victor Zhang
             </div>
 
             {/* short desc */}
-            <div className="text-slate-400 text-lg">
-              Certified Spindrift Connoisseur & Full Stack Enjoyer
+            <div className="text-slate-400 lg:text-lg text-xl">
+              <span className="inline-block whitespace-pre">Certified Spindrift Connoisseur & </span>
+              <span className="inline-block">Full Stack Enjoyer</span>
             </div>
           </div>
           
-          <div className="flex flex-col text-slate-300 gap-1">
+          <div className="flex flex-col text-slate-300 gap-1 mt-8">
             <p className="">
             👀 links to my stuff 👀
             </p>
@@ -47,7 +47,7 @@ export function MainPage() {
         </div>
 
         {/* project stuff */}
-        <div className="flex flex-col text-slate-300 text-md text-wrap w-1/2 py-28">
+        <div className="flex flex-col text-slate-300 text-md text-wrap lg:w-1/2 lg:py-24">
           <header>
             <p className="text-xl">
               some stuff that I've worked on:
@@ -60,12 +60,12 @@ export function MainPage() {
               <a href="https://avarian.net" target="_blank" rel="noreferrer">
                 <div className="flex flex-row items-center gap-2">
                   <p className="mb-2 font-bold">Avarian</p>
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-5 mb-1">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-5 mb-1">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
                   </svg>
                 </div>
                 <p className="mb-2">Frontend webapp built to serve player information like leaderboards, skill levels, and wallet balances for a private Minecraft server. Built with Discord as the main sign-in method.</p>
-                <div className="flex flex-row gap-2 text-violet-200 font-semibold">
+                <div className="flex flex-row gap-2 text-violet-200 font-semibold flex-wrap">
                   <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">React</p>
                   <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">TypeScript</p>
                   <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">JavaScript</p>
@@ -78,12 +78,12 @@ export function MainPage() {
               <a href="https://github.com/bananafiesta/avarian-backend" target="_blank" rel="noreferrer">
                 <div className="flex flex-row items-center gap-2">
                   <p className="mb-2 font-bold">Avarian - Panopticon</p>
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-5 mb-1">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-5 mb-1">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
                   </svg>
                 </div>
                 <p className="mb-2">Backend API and server for Avarian that handles queries for player data like leaderboards and skills. Includes a Discord bot for role verification and user commands.</p>
-                <div className="flex flex-row gap-2 text-violet-200 font-semibold">
+                <div className="flex flex-row gap-2 text-violet-200 font-semibold flex-wrap">
                   <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">Express</p>
                   <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">TypeScript</p>
                   <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">JavaScript</p>
@@ -97,14 +97,14 @@ export function MainPage() {
               <a href="https://bananafiesta.github.io/fluidsim" target="_blank" rel="noreferrer">
                 <div className="flex flex-row items-center gap-2">
                   <p className="mb-2 font-bold">2D Fluid Simulator</p>
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-5 mb-1">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-5 mb-1">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
                   </svg>
 
                 </div>
                 
                 <p className="mb-2">2D fluid simulator that simulates the motion and dynamics of fluids according to the Navier-Stokes equations. Allows users to interact with the fluid by moving it around and by drawing walls to impede the fluid.</p>
-                <div className="flex flex-row gap-2 text-violet-200 font-semibold">
+                <div className="flex flex-row gap-2 text-violet-200 font-semibold flex-wrap">
                   <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">JavaScript</p>
                   <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">WebGL</p>
                 </div>
@@ -124,7 +124,7 @@ export function MainPage() {
             <div className="rounded-md p-2 flex flex-col hover:bg-white/10 mb-5 hover:text-violet-400">
             <p className="mb-2 font-bold">Coding Expertise for AI Training, Tier 2· outlier.ai </p>
             <p className="mb-2">I rizz up the AI with my software skills.</p>
-            <div className="flex flex-row gap-2 text-violet-200 font-semibold">
+            <div className="flex flex-row gap-2 text-violet-200 font-semibold flex-wrap">
               <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">JavaScript</p>
               <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">Python</p>
               <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">C</p>
@@ -137,6 +137,6 @@ export function MainPage() {
         </div>
       </div>
       {/* </div> */}
-    </body>
+    </div>
   )
 }
