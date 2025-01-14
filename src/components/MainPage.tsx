@@ -67,8 +67,8 @@ export function MainPage() {
                 <p className="mb-2">Frontend webapp built to serve player information like leaderboards, skill levels, and wallet balances for a private Minecraft server. Built with Discord as the main sign-in method.</p>
                 <div className="flex flex-row gap-2 text-violet-200 font-semibold">
                   <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">React</p>
-                  <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">Typescript</p>
-                  <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">Javascript</p>
+                  <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">TypeScript</p>
+                  <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">JavaScript</p>
                   <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">Tailwind</p>
                 </div>
               </a>
@@ -85,8 +85,8 @@ export function MainPage() {
                 <p className="mb-2">Backend API and server for Avarian that handles queries for player data like leaderboards and skills. Includes a Discord bot for role verification and user commands.</p>
                 <div className="flex flex-row gap-2 text-violet-200 font-semibold">
                   <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">Express</p>
-                  <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">Typescript</p>
-                  <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">Javascript</p>
+                  <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">TypeScript</p>
+                  <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">JavaScript</p>
                   <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">MySQL</p>
                   <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">PostgreSQL</p>
                 </div>
@@ -105,7 +105,7 @@ export function MainPage() {
                 
                 <p className="mb-2">2D fluid simulator that simulates the motion and dynamics of fluids according to the Navier-Stokes equations. Allows users to interact with the fluid by moving it around and by drawing walls to impede the fluid.</p>
                 <div className="flex flex-row gap-2 text-violet-200 font-semibold">
-                  <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">Javascript</p>
+                  <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">JavaScript</p>
                   <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">WebGL</p>
                 </div>
               </a>
@@ -125,7 +125,7 @@ export function MainPage() {
             <p className="mb-2 font-bold">Coding Expertise for AI Training, Tier 2· outlier.ai </p>
             <p className="mb-2">I rizz up the AI with my software skills.</p>
             <div className="flex flex-row gap-2 text-violet-200 font-semibold">
-              <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">Javascript</p>
+              <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">JavaScript</p>
               <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">Python</p>
               <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">C</p>
               <p className="bg-violet-500/70 rounded-full px-3 py-0.5 text-sm">C++</p>
